@@ -1,0 +1,5 @@
+"*":
+  - prettier --ignore-unknown --check
+
+"*.{js,jsx,ts,tsx}":
+  - next lint --file
